@@ -96,10 +96,8 @@ def money_made():
         fieldnames = ['Date','Time Started', 'Time Ended ', 'Number of hours spent','Amount per hour','Total money earned $']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)    
         writer.writeheader()
-        writer.writerow({'Time Started':only_date, 'Time Ended ':date_time2 , 'Number of hours spent': total_hours,'Amount per hour':amount_earned, 'Total money earned $': total_amount})
+        writer.writerow({'Date':datee,'Time Started':only_date, 'Time Ended ':date_time2 , 'Number of hours spent': total_hours,'Amount per hour':amount_earned, 'Total money earned $': total_amount})
         
-    
-
 lbl8 = Label(window, font=("Arial", 10),background='white')
 lbl8.grid(column=0,row=8)  
 
