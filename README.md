@@ -64,7 +64,17 @@ minutes = %M
 #we then calculated thetime in seconds using the total_seconds() function and we were able to generate the hours by dividing it by 3600
 #Then with the amount he earns, which is gotten from the input using the get() function, we are able to calculate for how much he will earn at the end of work
 
-ALFRED TYPE HERE!!!
+# CSV File
+We create a csv file to collect al the info regarding the salaries
+
+#with open('time_track_info.csv', mode='a') as csv_file
+This command is used to create the name of the csv file and set the mode of addition to append so that it does not rewrite thw already existing information
+
+#Fieldnames
+COntains a list of the column headings for the data collected
+
+#writer.writerow
+Will update the spreadsheet with the date and time on your laptop when ever the progrm is run to calculate the working time.
 
 
 Contributors
