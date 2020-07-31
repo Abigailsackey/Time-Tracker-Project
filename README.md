@@ -44,17 +44,15 @@ These lables are;the part that displays the start date and time, the part that d
 We created this using the entry class which allows the user to enter the amount he earns
 
 
-# The datetime module supplies classes for manipulating dates and times.
+#Our functions
+We created 2 functions
+-calculate_date_time:when run it registers the current time on your laptop and stores it
+-money_made: this function when run stores the current time on your laptop. Gets the start time from the first function and changes them both to hours. It then calculates how many hours were spent working by finding the difference, then calculates how much money he earns based on the entry for how much he earns an hour from the user. After it writes all the information to a file. Every time this function is run the file is appended with the information so that it does not overwrite any information stored in it
 
 
-# the Datetime class helps us calculate for the day (year/month/day) and the time(hours:minutes) where ; 
-
-the year is represented by  = %Y,  day  = %d, hour  = %H, month  =  %m, and  = minutes %M
-
-
+# The datetime module supplies classes for manipulating dates and times.
+# the Datetime class helps us calculate for the day (year/month/day) and the time(hours:minutes) where ;
+the year is represented by  = %Y, month  =  %m, day  = %d, hour  = %H, , and  = minutes %M
 # the now() function helps us get the current date and time when the function is run
-
-
 # we then calculated the time in seconds using the total_seconds() function and we were able to generate the hours by dividing it by 3600
-
 # Then with the amount he earns, which is gotten from the input using the get() function, we are able to calculated for how much he will earn at the end of work.
