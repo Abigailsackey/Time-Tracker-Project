@@ -1,5 +1,4 @@
-# python_assignment
-#Time Tracker
+#Time Tracker Project
 This program helps one calculate how much is earned after a days work based on how much you earn per hour and how much time you put in your work.
 
 #Description
