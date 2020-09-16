@@ -1,6 +1,6 @@
 #Time Tracker Project
 
-This program helps one calculate how much is earned after a days work based on how much you earn per hour and how much time you put in your work.
+The aim of this project is to help one calculate how much is earned after a days work based on how much you earn per hour and how much time you put in your work.
 
 #Description
 When the start button is pressed it registers the time work is started, then asks user for an input which is how much he earns per hour. After work when the stop button is pressed it registers the time work was stopped and is able to tell the user how much he spent working and thus how much he will earn.
